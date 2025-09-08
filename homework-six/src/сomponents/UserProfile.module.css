@@ -1,0 +1,45 @@
+body {
+  background-color: #e8f5e9; /* світлий фон для контрасту */
+  font-family: sans-serif;
+}
+
+.container {
+  margin:0 auto;
+  width: 400px;
+  height: 700px;
+  padding: 30px;
+  background-color: rgb(211, 242, 171); /* світло-зелений фон */
+  border: 15px solid rgba(211, 228, 191, 0.98); /* тонкий бордер */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* чітка тінь */
+
+  text-align: center;
+}
+
+.foto{
+  border-radius: 50%;
+  border: 5px solid rgba(173, 220, 120, 0.98);
+  margin-top: 50px;
+}
+
+.name{
+  font-size: 30px;
+  color: rgba(45, 72, 14, 0.98);
+  margin-top: 70px;
+}
+.email{
+  color: rgba(45, 72, 14, 0.98);
+  margin-top: 70px;
+  font-size: 20px;
+}
+.phone{
+  color: rgba(45, 72, 14, 0.98);
+  margin-top: 70px;
+  font-size: 20px;
+}
+.button{
+  background-color: rgb(210, 205, 205);
+  padding: 12px 20px;
+  margin-top: 70px;
+ border:none;
+ color: rgba(45, 72, 14, 0.98);
+}
