@@ -1,0 +1,45 @@
+.card {
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(238, 227, 247, 0.816);
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-size: 28px;
+  margin: 15px;
+  color: #4b3b6b;
+  text-align: center;
+}
+.card img {
+  width: 750px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.card p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  height: 100%;
+  list-style-position: inside;
+  padding-left: 0;
+  margin-top: 0 auto;
+  text-align: center;
+}
+
+.card li {
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #4b3b6b;
+}
