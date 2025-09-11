@@ -1,0 +1,82 @@
+.card {
+  background-color: #121212;
+  color: white;
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+  width: 100%;
+  max-width: 530px;
+  height: auto;
+}
+.text {
+  margin-bottom: 16px;
+  font-family: Rubik;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  color: #1db954;
+}
+.link {
+  color: #1db954;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 30px;
+  border: 2px solid #1db954;
+  width: 250px;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icon img {
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icon:hover img {
+  transform: translateY(-5px);
+  filter: brightness(0) saturate(100%) invert(27%) sepia(98%) saturate(748%)
+    hue-rotate(180deg);
+}
+
+@media (max-width: 360px) {
+  .iconWrapper {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    max-width: 200px;
+    height: auto;
+    padding: 12px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+}

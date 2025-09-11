@@ -1,0 +1,24 @@
+@media (max-width: 1024px) {
+  .card {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .text8 {
+    font-size: 26px;
+  }
+  .iconWrapper {
+
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    max-width: 200px;
+    height: auto;
+    padding: 12px;
+  }
+  .icons {
+    flex-direction: column;
+    gap: 12px;
+    
+  }
+}
