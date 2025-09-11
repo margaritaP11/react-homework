@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(182, 112, 233, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+
+  background-color: rgba(166, 126, 202, 0.663);
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.title {
+  color: rgb(50, 5, 92);
+  padding-top: 60px;
+}
+.quiz {
+  margin: 70px 0 40px 0;
+}
+.count {
+  margin: 70px 0 40px 0;
+}
+input {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgba(72, 13, 123, 0.492);
+}
+button:active {
+  background-color: rgba(30, 13, 46, 0.492);
+}
