@@ -1,0 +1,40 @@
+.form {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(135, 135, 173);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.lable {
+  font-size: 40px;
+}
+.input {
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.button {
+  width: 408px;
+  height: 30px;
+  background-color: rgb(48, 48, 87);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: rgb(200, 165, 233);
+}
+.button:active {
+  background-color: rgb(154, 154, 181);
+}
+.errors {
+  color: brown;
+}
