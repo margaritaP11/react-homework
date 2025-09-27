@@ -1,0 +1,9 @@
+.app_container {
+  background-color: rgba(121, 99, 142, 0.354);
+  width: 500px;
+  border-radius: 8px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
