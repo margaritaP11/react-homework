@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(191, 209, 203);
+  width: 300px;
+
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #eee;
+  padding: 10px;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #7ab6a6;
+}
+a {
+  text-decoration: none;
+  color: #024634;
+}
+button {
+  background-color: #024634;
+  width: 100px;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #33aaa6;
+}
