@@ -1,0 +1,18 @@
+body {
+  width: 400px;
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+
+  background-color: rgb(214, 192, 235);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  font-size: 40px;
+}
