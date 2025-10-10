@@ -9,18 +9,21 @@ import {
   Paper,
 } from '@mui/material'
 const UserList = () => {
-  const userList = [
-    { id: 1, name: 'Olena', age: 25, profession: 'Designer' },
-    { id: 2, name: 'Ivan', age: 30, profession: 'Software Engineer' },
-    { id: 3, name: 'Maria', age: 22, profession: 'Teacher' },
-    { id: 4, name: 'Petro', age: 28, profession: 'Mechanic' },
-    { id: 5, name: 'Andriy', age: 35, profession: 'Project Manager' },
-    { id: 6, name: 'Svitlana', age: 27, profession: 'Doctor' },
-    { id: 7, name: 'Oleh', age: 31, profession: 'Data Analyst' },
-    { id: 8, name: 'Nataliya', age: 29, profession: 'Marketing Specialist' },
-    { id: 9, name: 'Taras', age: 24, profession: 'Photographer' },
-    { id: 10, name: 'Yuliya', age: 26, profession: 'UX Researcher' },
-  ]
+  const userList = useMemo(
+    () => [
+      { id: 1, name: 'Olena', age: 25, profession: 'Designer' },
+      { id: 2, name: 'Ivan', age: 30, profession: 'Software Engineer' },
+      { id: 3, name: 'Maria', age: 22, profession: 'Teacher' },
+      { id: 4, name: 'Petro', age: 28, profession: 'Mechanic' },
+      { id: 5, name: 'Andriy', age: 35, profession: 'Project Manager' },
+      { id: 6, name: 'Svitlana', age: 27, profession: 'Doctor' },
+      { id: 7, name: 'Oleh', age: 31, profession: 'Data Analyst' },
+      { id: 8, name: 'Nataliya', age: 29, profession: 'Marketing Specialist' },
+      { id: 9, name: 'Taras', age: 24, profession: 'Photographer' },
+      { id: 10, name: 'Yuliya', age: 26, profession: 'UX Researcher' },
+    ],
+    []
+  )
 
   const [filter, setFilter] = useState('')
 
