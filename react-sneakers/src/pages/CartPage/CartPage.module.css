@@ -1,0 +1,43 @@
+.cartLogic {
+  display: flex;
+
+  justify-content: center;
+  align-items: start;
+  padding: 24px 0;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.title {
+  margin: 40px 60px 40px 60px;
+}
+.linie {
+  margin-left: 60px;
+  width: 1420px;
+  height: 1px;
+  background-color: lightgray;
+}
+.cartList {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cartSummary {
+  flex: 1;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 200px;
+}
+
+.summaryList {
+  margin-bottom: 12px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}

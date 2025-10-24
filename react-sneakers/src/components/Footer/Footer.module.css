@@ -1,0 +1,40 @@
+.footer {
+  background: #232425;
+  display: flex;
+  justify-content: space-around;
+  padding: 66px 0 48px;
+}
+
+.head {
+  font-weight: 200;
+  font-size: 1.5em;
+  color: #ffffff;
+  margin-bottom: 39px;
+}
+.paragraph {
+  color: #ffffff80;
+  font-size: 1.1em;
+  margin-top: 13px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 170px;
+}
+.icons {
+  display: flex;
+  gap: 26px;
+  align-self: flex-end;
+  text-align: right;
+}
+.mailInput {
+  border: none;
+  border-bottom: 1px solid #ffffff80;
+  padding: 16px 0 5px;
+  background: transparent;
+  min-width: 400px;
+  color: white;
+}
+.mailInput:focus {
+  border: none;
+}

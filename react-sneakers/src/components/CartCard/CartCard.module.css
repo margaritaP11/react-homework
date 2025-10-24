@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 600px;
+}
+
+.image {
+  width: 100px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.name {
+  flex: 1;
+  font-size: 16px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

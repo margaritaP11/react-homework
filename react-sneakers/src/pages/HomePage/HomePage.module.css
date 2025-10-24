@@ -1,0 +1,10 @@
+.homeWrapper {
+  padding: 28px 0px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px;
+  justify-content: center;
+  padding: 24px 0;
+}
